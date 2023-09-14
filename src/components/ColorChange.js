@@ -13,6 +13,7 @@ const ColorChange = () => {
       ) : (
         <button className="btn">False</button>
       )}
+
       <div
         className={` min-h-screen  flex justify-center items-center text-4xl font-bold
         ${
