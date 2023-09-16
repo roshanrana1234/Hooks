@@ -1,0 +1,31 @@
+useEffect Hooks.
+It is Kind of sideEffect
+1) Updating DOM 
+2) Fetching Data From API End Point 
+3) setting Up Subscription or Timer
+
+render , LifeCycle Method
+
+Ex:- Updating the document title to the current counter value.
+
+componentDidMount
+componentDidUpdate
+componentWillUnmount
+
+In React, every instance of a component goes through a lifecycle that consists of creation (mounting), updating, and deletion (unmounting).
+
+Mount :-
+Mounting is the initial phase in which the instance of the component is created and inserted into the DOM, the component is said to be mounted.
+
+updating:-
+In the updating phase, the component gets updated while being present in the DOM.
+
+unmounting:-
+In the unmounting phase, the component is removed from the DOM.
+
+React provides us various methods called the lifecycle methods which get triggered during different phases of the lifecycle of that component. We will use some of these lifecycle methods to see what happens in the mounting phase.
+
+////////////////////////////////////////////////////////////////
+The Effect Hook lets you perform "side effects in funtional components"
+
+it is a close replacement for componentDidMount , componentDidUpdate and componentWillUnmount

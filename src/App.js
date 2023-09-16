@@ -1,46 +1,57 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+import UseState from "./components/UseState";
+import UseStateTwo from "./components/UseStateTwo";
+import UseStateThree from "./components/UseStateThree";
+import ColorChange from "./components/ColorChange";
+
 import Functinal from "./Functinal";
 import ClassCompnent from "./ClassCompnent";
 import UseCount from "./usestate/UseCount";
 import UseCountTwo from "./usestate/UseCountTwo";
 import UseCountThree from "./usestate/UseCountThree";
 import NavBar from "./usestate/NavBar";
+import UseStateWithTailiwnd from "./usestate/UseStateWithTailiwnd";
+import UseCounterEffect from "./useEffect/UseCounterEffect";
+import HookMouse from "./useEffect/HookMouse";
+import MouseContainer from "./useEffect/MouseContainer";
+import UsersFetch from "./useEffect/UsersFetch";
+import UsersDetail from "./useEffect/UsersDetail";
 
 const App = () => {
   return (
     <>
+      {/* <UseState />
+      <UseStateTwo />
+      <UseStateThree />
+      <ColorChange /> */}
+
       {/* <Functinal /> */}
       {/* <ClassCompnent /> */}
       {/* <UseCount /> */}
       {/* <UseCountTwo /> */}
       {/* <UseCountThree /> */}
-      <NavBar />
+      {/* <NavBar /> */}
+
+      {/* <HookCounterOne /> */}
+      {/* <UseStateWithTailiwnd /> */}
+
+      {/* <UseCounterEffect /> */}
+      {/* <HookMouse /> */}
+      {/* <MouseContainer /> */}
+      <Routes>
+        <Route path="users" element={<UsersFetch />} />
+        <Route path="users/:userID" element={<UsersDetail />} />
+      </Routes>
+      {/* <UsersFetch  /> */}
     </>
   );
 };
 
 export default App;
 
-// ES6 === React
-
-// import React from "react";
-// import UseState from "./components/UseState";
-// import UseStateTwo from "./components/UseStateTwo";
-// import UseStateThree from "./components/UseStateThree";
-// import ColorChange from "./components/ColorChange";
-
-// const App = () => {
-//   return (
-//     <>
-//       <UseState />
-//       <UseStateTwo />
-//       <UseStateThree />
-//       <ColorChange />
-//     </>
-//   );
-// };
-
-// export default App;
+// UseEffect
+// UseState
 
 // jsx ===  Javascript Extension
 
