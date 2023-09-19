@@ -1,43 +1,37 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const BlogList = ({ data, title, handleDelet }) => {
-  //    props == {data: blogs, title:"This is All Blogs"}
-  //   console.log("This is Props", props);
+const BlogList = ({ listData, title, handleDelete }) => {
+  //   console.log("This is Props Value", props);
 
-  // const blogs = props.data;
-  // const titleofBlog = props.title;
+  //   props = {data: blogs, title="This is All Blogs", handleDelete: handleDelete}
 
-  // const { data, title } = props;
+  //   const { data, title,handleDelete } = props;
+
+  //   const data = props.data;
+  //   const title = props.title;
 
   return (
     <>
-      <div className="flex flex-col gap-5">
-        <h1 className="text-2xl font-bold text-pink-600">{title}</h1>
-        {data?.map((value, index) => {
+      <div className="p-4">
+        <h1 className="text-3xl font-bold text-orange-500 my-3">{title}</h1>
+        {listData.map((value, index) => {
+          //   console.log("This is Map Value", value);
           return (
-            <Link
-              to={`${value.id}`}
-              //   to={`/blog/${value.id}`}
-              key={index}
-              className="flex gap-3 items-start bg-green-400 p-4"
-            >
-              <div>
-                <span>{value.id}</span>
-                <div className="flex flex-col">
-                  <span className="text-xl font-semibold text-pink-400">
-                    {value.title}
-                  </span>
-                  <span className="text-black/60">{value.author}</span>
-                </div>
-                <button
-                  onClick={() => handleDelet(value.id)}
-                  className="btn bg-red-500"
-                >
-                  Delete Blog
-                </button>
+            <div key={index} className="flex gap-3 items-start">
+              <span>{value.id}</span>
+              <div className="flex flex-col">
+                <span className="text-xl font-semibold text-orange-500">
+                  {value.title}
+                </span>
+                <span className="text-black/60">{value.author}</span>
               </div>
-            </Link>
+              <button
+                onClick={() => handleDelete(value.id)}
+                className="btn bg-red-600"
+              >
+                Delete Blog
+              </button>
+            </div>
           );
         })}
       </div>

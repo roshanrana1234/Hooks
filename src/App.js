@@ -19,8 +19,7 @@ import UsersFetch from "./useEffect/UsersFetch";
 import UsersDetail from "./useEffect/UsersDetail";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
-import Blog from "./Props/Blog";
-import BlogDetail from "./Props/BlogDetail";
+import Blogs from "./Props/Blogs";
 
 const App = () => {
   return (
@@ -46,8 +45,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="blog/:blogID" element={<BlogDetail />} />
+        <Route path="blog" element={<Blogs />} />
         <Route path="users" element={<UsersFetch />} />
         <Route path="users/:userID" element={<UsersDetail />} />
       </Routes>
