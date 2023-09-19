@@ -1,0 +1,35 @@
+{
+  "Blogs": [
+    {
+      "id": 1,
+      "author": "Rocky",
+      "title": "Best World",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident dolor blanditiis aperiam consectetur veniam at iure porro quam hic quaerat illum quibusdam modi, accusantium repellendus, dolore ex ipsam velit?"
+    },
+    {
+      "id": 2,
+      "author": "Sandeep",
+      "title": "It Sector",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident dolor blanditiis aperiam consectetur veniam?"
+    },
+    {
+      "id": 3,
+      "author": "Sandeep",
+      "title": "Best Web Site",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident dolor blanditiis aperiam consectetur veniam at iure porro quam hic quaerat illum quibusdam modi, accusantium repellendus, dolore ex ipsam velit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, saepe ab, quasi dolorem repellendus explicabo exercitationem itaque est cum magni cumque nulla aliquid iure nihil, suscipit atque! Quam, pariatur vel."
+    },
+
+    {
+      "id": 4,
+      "author": "Roshan",
+      "title": "This is Best Book",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident dolor blanditiis aperiam consectetur veniam at iure porro quam hic quaerat illum quibusdam modi, accusantium repellendus, dolore ex ipsam velit?"
+    },
+    {
+      "id": 5,
+      "author": "Roshan",
+      "title": "Best of the book",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident dolor blanditiis aperiam consectetur veniam at iure porro quam hic quaerat illum quibusdam modi, accusantium repellendus, dolore ex ipsam velit?"
+    }
+  ]
+}
