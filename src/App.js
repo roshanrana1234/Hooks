@@ -4,7 +4,6 @@ import UseState from "./components/UseState";
 import UseStateTwo from "./components/UseStateTwo";
 import UseStateThree from "./components/UseStateThree";
 import ColorChange from "./components/ColorChange";
-
 import Functinal from "./Functinal";
 import ClassCompnent from "./ClassCompnent";
 import UseCount from "./usestate/UseCount";
@@ -20,6 +19,7 @@ import UsersDetail from "./useEffect/UsersDetail";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
 import Blogs from "./Props/Blogs";
+import Employee from "./CRUD/Fetch/Employee";
 
 const App = () => {
   return (
@@ -48,6 +48,7 @@ const App = () => {
         <Route path="blog" element={<Blogs />} />
         <Route path="users" element={<UsersFetch />} />
         <Route path="users/:userID" element={<UsersDetail />} />
+        <Route path="employee" element={<Employee />} />
       </Routes>
       {/* <UsersFetch  /> */}
     </>

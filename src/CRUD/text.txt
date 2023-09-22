@@ -1,0 +1,87 @@
+Create Read Update Delete.
+CRUD
+JavaScript is synchronous sigle threaded language
+Javascript runs onTask at at time and goes to other line of code when first line code execution is been completed and it is done in some specific order.
+Statement .
+
+asynchronous
+
+1) Using Fetch
+2) Using Axios
+3) Using RTK Query
+4) Using TanStack Query
+
+What is API ? 
+What is JSON ?
+What is Object?
+What is difference between Object and JSON ?
+What is Array?
+async and Await?
+What is try and catch?
+What is promise ?
+What is Synchronous? 
+What is asynchronous?
+what is Optional chaining?
+///////////////////////////////////////////////////////////////
+Synchronous and Asynchronous
+
+
+Asynchronous and synchronous programming differ in how they handle the flow of code execution and the management of tasks that may take time to complete. Here are the key differences between the two:
+
+1. Execution Flow:
+
+Synchronous: In synchronous programming, code is executed sequentially, one statement at a time, and each statement must finish executing before the next one starts. This means that if one statement takes a long time to complete, it can block the entire program, making it unresponsive.
+
+Asynchronous: In asynchronous programming, code can execute independently of the main program flow. Asynchronous operations are started, and the program continues to execute other tasks without waiting for the asynchronous tasks to finish. When an asynchronous task is completed, a callback function, Promise resolution, or await keyword can be used to handle the result.
+
+
+2. Blocking vs. Non-blocking:
+
+Synchronous: Synchronous code is blocking, meaning that each statement blocks the execution of subsequent statements until it completes. If there are long-running tasks, the program may appear unresponsive.
+
+Asynchronous: Asynchronous code is non-blocking. It allows tasks to run concurrently without blocking the main program flow. This enables the program to remain responsive even when there are tasks that take time to complete.
+
+
+3. Callbacks, Promises, and Async/Await:
+
+Synchronous: In synchronous code, you don't typically use callbacks or Promises to handle asynchronous tasks because all tasks are executed in order.
+
+Asynchronous: Asynchronous programming often involves the use of callbacks, Promises, or the async/await keywords to manage asynchronous tasks. These mechanisms provide structured ways to work with non-blocking code and handle the results of asynchronous operations.
+
+
+4. Example Use Cases:
+
+Synchronous: Synchronous programming is suitable for simple tasks or situations where it's acceptable for the program to wait for each task to complete before moving on. It's commonly used for basic calculations and simple logic.
+
+Asynchronous: Asynchronous programming is essential for handling tasks that involve I/O operations (e.g., reading/writing files, making network requests), user interactions, and other time-consuming operations. It's crucial for building responsive and efficient applications.
+
+//////////////////////////////////////////////////////////////
+
+Promise 
+
+1) In Javascript , a "Promise" is an 'object' used for asynchronous Programming.
+2)  It represents a value that may not be available yet but will be resolved in the future, either with a result (fulfilled) or with an error (rejected). Promises are a way to manage and work with asynchronous operations in a more structured and readable manner compared to traditional callback-based approaches.
+3) Promises are a fundamental building block for handling asynchronous operations in modern JavaScript, and they provide a clean and predictable way to work with asynchronous code. Additionally, Promises can be combined and chained to handle complex asynchronous workflows.
+
+
+
+A Promise has three states:---
+
+1) Pending: This is the initial state when the Promise is created, and it represents that the operation is still in progress.
+
+2) Fulfilled: The Promise transitions to this state when the asynchronous operation is successfully completed. At this point, you can access the resolved value.
+
+3) Rejected: The Promise transitions to this state if an error occurs during the asynchronous operation. In this case, you can access the reason for the rejection, which is typically an error object.
+
+ You can use the .then() method to specify what should happen when the Promise is fulfilled and the .catch() method to handle any rejections.
+
+
+///////////////////////////////////////////////////////////////
+async and Await
+
+Async/Await: The async and await keywords introduced in ES2017 (ES8) provide a more elegant way to work with Promises. An async function returns a Promise implicitly, and await can be used within an async function to pause execution until a Promise is resolved.
+
+//////////////////////////////////////////////////////////////
+try and Catch
+
+In JavaScript, try and catch are keywords used to implement error handling and exception handling mechanisms. They are part of the try...catch statement, which allows you to gracefully handle errors or exceptions that might occur during the execution of your code.

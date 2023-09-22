@@ -14,6 +14,9 @@ const Header = () => {
             <Link to="blog">
               <li>Blogs</li>
             </Link>
+            <Link to="employee">
+              <li>Employee</li>
+            </Link>
             <li>Users</li>
           </ul>
         </header>

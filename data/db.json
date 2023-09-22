@@ -31,5 +31,92 @@
       "title": "Best of the book",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident dolor blanditiis aperiam consectetur veniam at iure porro quam hic quaerat illum quibusdam modi, accusantium repellendus, dolore ex ipsam velit?"
     }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "name": "Roshan Rana",
+      "age": 28,
+      "company": "OnlineHoja",
+      "designation": "Full Stack Developer",
+      "address": {
+        "place": "Bhopal",
+        "pincode": "462024",
+        "landMark": "AIIMS"
+      },
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
+      "author": "roshan"
+    },
+    {
+      "id": 2,
+      "name": "Sandeep",
+      "age": 24,
+      "company": "OnlineHoja",
+      "designation": "Full Stack Developer",
+      "address": {
+        "place": "Bhopal",
+        "pincode": "462224",
+        "landMark": "Karond"
+      },
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
+      "author": "roshan"
+    },
+    {
+      "id": 3,
+      "name": "Priyatam Patel",
+      "age": 30,
+      "company": "OnlineHoja",
+      "designation": "Full Stack Developer",
+      "address": {
+        "place": "Anuppur",
+        "pincode": "4620444",
+        "landMark": "Shahdol"
+      },
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
+      "author": "roshan"
+    },
+
+    {
+      "id": 4,
+      "name": "Khushi",
+      "age": 24,
+      "company": "Google",
+      "designation": "React Developer",
+      "address": {
+        "place": "Bhopal",
+        "pincode": "422024",
+        "landMark": "Hoshangabad"
+      },
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
+      "author": "roshan"
+    },
+    {
+      "id": 5,
+      "name": "Nidhi",
+      "age": 26,
+      "company": "OnlineHoja",
+      "designation": "Front End Developer",
+      "address": {
+        "place": "Bhopal",
+        "pincode": "462024",
+        "landMark": "AIIMS"
+      },
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
+      "author": "roshan"
+    },
+    {
+      "id": 6,
+      "name": "Abhilasha",
+      "age": 24,
+      "company": "OnlineHoja",
+      "designation": "Front End deveoloper",
+      "address": {
+        "place": "Delhi",
+        "pincode": "462024",
+        "landMark": "AIIMS"
+      },
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
+      "author": "roshan"
+    }
   ]
 }

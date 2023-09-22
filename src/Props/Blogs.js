@@ -11,13 +11,13 @@ const Blogs = () => {
     axios
       .get("http://localhost:8000/Blogs")
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         setBlogs(res.data);
         setIsLoading(false);
         setIsError(null);
       })
       .catch((err) => {
-        console.log(err);
+        // console.log(err);
         setIsLoading(false);
         setIsError(err.message);
       });
@@ -27,6 +27,14 @@ const Blogs = () => {
     const newBlog = blogs.filter((value) => value.id !== id);
     setBlogs(newBlog);
   };
+
+  // console.log("First Print");
+
+  // setTimeout(() => {
+  //   console.log("middle Print");
+  // }, 4000);
+
+  // console.log("Last Print");
 
   return (
     <>
