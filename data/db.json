@@ -18,7 +18,6 @@
       "title": "Best Web Site",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident dolor blanditiis aperiam consectetur veniam at iure porro quam hic quaerat illum quibusdam modi, accusantium repellendus, dolore ex ipsam velit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, saepe ab, quasi dolorem repellendus explicabo exercitationem itaque est cum magni cumque nulla aliquid iure nihil, suscipit atque! Quam, pariatur vel."
     },
-
     {
       "id": 4,
       "author": "Roshan",
@@ -75,7 +74,6 @@
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
       "author": "roshan"
     },
-
     {
       "id": 4,
       "name": "Khushi",
@@ -117,6 +115,54 @@
       },
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus distinctio quisquam corrupti porro alias quis quia consequuntur! Vero, quibusdam quia! Culpa voluptatibus, consequuntur eaque eos quis adipisci quas saepe?",
       "author": "roshan"
+    },
+    {
+      "author": "Roshan Rana",
+      "age": "45",
+      "designation": "web Developer",
+      "company": "OnlinHoja",
+      "body": "This is Web side of hte website",
+      "id": 7
+    },
+    {
+      "author": "Kajal",
+      "age": "23",
+      "designation": "Designer",
+      "company": "Goolge",
+      "body": "Best Designer",
+      "id": 8
+    }
+  ],
+  "developer": [
+    {
+      "id": 1,
+      "name": "Roshan",
+      "designation": "Mern Stark"
+    },
+    {
+      "id": 2,
+      "name": "Nidhi",
+      "designation": "React Js Developer"
+    },
+    {
+      "id": 3,
+      "name": "Khushi",
+      "designation": "JavaScript Developer"
+    },
+    {
+      "id": 4,
+      "name": "Abhilasha",
+      "designation": "Front end Developer"
+    },
+    {
+      "name": "Sandeep",
+      "designation": "Developer",
+      "id": 5
+    },
+    {
+      "name": "jkljlkjkljlklkjkljkl;jkljkljkl;jklj",
+      "designation": "",
+      "id": 6
     }
   ]
 }

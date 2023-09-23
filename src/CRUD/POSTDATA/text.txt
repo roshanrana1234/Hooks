@@ -1,0 +1,8 @@
+Stateful: In a controlled form, the value of each form input element (like <input>, <textarea>, or <select>) is controlled by the state of a React component. This means that you store the input's value in a component state variable.
+
+Synced with State: The input element's value attribute is set to the corresponding state variable, and it also has an onChange event handler that updates the state variable whenever the input changes.
+
+Advantages:
+
+React maintains a single source of truth for the form input value, making it easy to access, validate, and manipulate.
+You can implement complex interactions, such as conditional rendering or form submission, based on the controlled values.

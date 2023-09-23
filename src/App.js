@@ -20,6 +20,9 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
 import Blogs from "./Props/Blogs";
 import Employee from "./CRUD/Fetch/Employee";
+import Developer from "./CRUD/POSTDATA/Developer";
+import DeveloperDetail from "./CRUD/POSTDATA/DeveloperDetail";
+import AddDeveloper from "./CRUD/POSTDATA/AddDeveloper";
 
 const App = () => {
   return (
@@ -49,6 +52,9 @@ const App = () => {
         <Route path="users" element={<UsersFetch />} />
         <Route path="users/:userID" element={<UsersDetail />} />
         <Route path="employee" element={<Employee />} />
+        <Route path="developer" element={<Developer />} />
+        <Route path="addeveloper" element={<AddDeveloper />} />
+        <Route path="developer/:develoerID" element={<DeveloperDetail />} />
       </Routes>
       {/* <UsersFetch  /> */}
     </>

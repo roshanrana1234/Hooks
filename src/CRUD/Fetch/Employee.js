@@ -15,6 +15,8 @@ const Employee = () => {
     "http://localhost:8000/employee"
   );
 
+  console.log(data);
+
   //   Using Fetch
   // useEffect(() => {
   //   fetch("http://localhost:8000/employ")

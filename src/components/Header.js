@@ -17,7 +17,12 @@ const Header = () => {
             <Link to="employee">
               <li>Employee</li>
             </Link>
-            <li>Users</li>
+            <Link to="developer">
+              <li>Developer</li>
+            </Link>
+            <Link to="addeveloper">
+              <li>Add Developer</li>
+            </Link>
           </ul>
         </header>
       </div>

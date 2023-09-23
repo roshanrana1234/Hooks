@@ -22,9 +22,9 @@ const UseFetch = (URL) => {
       })
       .catch((err) => {
         console.log(err);
-        setIsError(err.message);
-        setIsLoading(false);
         setData(null);
+        setIsLoading(false);
+        setIsError(err.message);
       });
   }, [URL]);
 
