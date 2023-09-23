@@ -56,6 +56,10 @@ const Developer = () => {
                   </div>
                 </div>
               </div>
+
+              <Link to={`/edit?data=${value?.id}`}>
+                <button className="btn">Edit Data</button>
+              </Link>
             </Link>
           );
         })}

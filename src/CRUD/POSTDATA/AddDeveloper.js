@@ -11,8 +11,6 @@ const AddDeveloper = () => {
   const navigate = useNavigate();
 
   const notify = () => {
-    // toast("Default Notification !");
-
     toast.success("Added Developer Successfully", {
       position: toast.POSITION.TOP_CENTER,
     });

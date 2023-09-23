@@ -23,6 +23,7 @@ import Employee from "./CRUD/Fetch/Employee";
 import Developer from "./CRUD/POSTDATA/Developer";
 import DeveloperDetail from "./CRUD/POSTDATA/DeveloperDetail";
 import AddDeveloper from "./CRUD/POSTDATA/AddDeveloper";
+import EditDeveloper from "./CRUD/POSTDATA/EditDeveloper";
 
 const App = () => {
   return (
@@ -54,6 +55,7 @@ const App = () => {
         <Route path="employee" element={<Employee />} />
         <Route path="developer" element={<Developer />} />
         <Route path="addeveloper" element={<AddDeveloper />} />
+        <Route path="edit" element={<EditDeveloper />} />
         <Route path="developer/:develoerID" element={<DeveloperDetail />} />
       </Routes>
       {/* <UsersFetch  /> */}

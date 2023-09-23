@@ -150,19 +150,14 @@
       "designation": "JavaScript Developer"
     },
     {
-      "id": 4,
       "name": "Abhilasha",
-      "designation": "Front end Developer"
+      "designation": "Front end Developer ",
+      "id": 4
     },
     {
-      "name": "Sandeep",
-      "designation": "Developer",
+      "name": "Sandeep ",
+      "designation": "Mern",
       "id": 5
-    },
-    {
-      "name": "jkljlkjkljlklkjkljkl;jkljkljkl;jklj",
-      "designation": "",
-      "id": 6
     }
   ]
 }
