@@ -24,6 +24,8 @@ import Developer from "./CRUD/POSTDATA/Developer";
 import DeveloperDetail from "./CRUD/POSTDATA/DeveloperDetail";
 import AddDeveloper from "./CRUD/POSTDATA/AddDeveloper";
 import EditDeveloper from "./CRUD/POSTDATA/EditDeveloper";
+import Basic from "./Formik/Basic";
+import ControlledFrom from "./Form/ControlledFrom";
 
 const App = () => {
   return (
@@ -57,6 +59,8 @@ const App = () => {
         <Route path="addeveloper" element={<AddDeveloper />} />
         <Route path="edit" element={<EditDeveloper />} />
         <Route path="developer/:develoerID" element={<DeveloperDetail />} />
+        {/* Forms */}
+        <Route path="contolledform" element={<ControlledFrom />} />
       </Routes>
       {/* <UsersFetch  /> */}
     </>

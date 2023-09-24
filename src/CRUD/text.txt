@@ -4,12 +4,18 @@ JavaScript is synchronous sigle threaded language
 Javascript runs onTask at at time and goes to other line of code when first line code execution is been completed and it is done in some specific order.
 Statement .
 
+
 asynchronous
 
 1) Using Fetch
 2) Using Axios
 3) Using RTK Query
 4) Using TanStack Query
+
+Updated vesrion
+
+Form (Indepth) Formik (State , From Validaton , sumit)
+
 
 What is API ? 
 What is JSON ?

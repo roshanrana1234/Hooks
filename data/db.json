@@ -135,14 +135,14 @@
   ],
   "developer": [
     {
-      "id": 1,
-      "name": "Roshan",
-      "designation": "Mern Stark"
+      "name": "Roshan Rana",
+      "designation": "Mern Stark",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Nidhi",
-      "designation": "React Js Developer"
+      "name": "Nidhii",
+      "designation": "React Js Developer",
+      "id": 2
     },
     {
       "id": 3,
@@ -151,12 +151,12 @@
     },
     {
       "name": "Abhilasha",
-      "designation": "Front end Developer ",
+      "designation": "Front end Developer (UI Portion)",
       "id": 4
     },
     {
       "name": "Sandeep ",
-      "designation": "Mern",
+      "designation": "Mern (Full Stack Developer)",
       "id": 5
     }
   ]

@@ -21,11 +21,13 @@ const EditDeveloper = () => {
   const params = new URLSearchParams(search);
   const dataReceived = params.get("data");
 
+  // console.log("This is Edit Component ID", dataReceived);
+
   useEffect(() => {
     axios
       .get(`http://localhost:8000/developer/${dataReceived}`)
       .then((res) => {
-        console.log(res);
+        // console.log("Response Data", res);
         if (res.data) {
           setName(res.data.name);
           setDesignation(res.data.designation);

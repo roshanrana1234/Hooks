@@ -23,6 +23,9 @@ const Header = () => {
             <Link to="addeveloper">
               <li>Add Developer</li>
             </Link>
+            <Link to="contolledform">
+              <li>Form</li>
+            </Link>
           </ul>
         </header>
       </div>
